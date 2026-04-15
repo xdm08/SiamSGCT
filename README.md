@@ -71,13 +71,13 @@ python evaluate.py --weights siamsgct_best.pth
 
 ## Performance Metrics
 On LEVIR-CD test set:
-| Metric  | Value  |
-|---------|--------|
-| F1      | 92.05  |
-| IoU     | 85.27  |
-| OA      | 98.73  |
-| Precision | 91.56 |
-| Recall    | 92.54 |
+| Metric  | 
+|---------|
+| F1      | 
+| IoU     | 
+| OA      | 
+| Precision | 
+| Recall    |
 
 ## Project Structure
 ```
