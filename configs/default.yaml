@@ -1,0 +1,23 @@
+# 训练配置文件
+data:
+  dataset: 'levir'  # 可选: levir / whu
+  root_dir: '/root/autodl-tmp/LEVIR-CD256'
+  root_dir_whu: '/root/autodl-tmp/WHU-CD-256'
+  n_segments: 300
+  batch_size: 32
+  num_workers: 4
+
+train:
+  epochs: 150
+  lr: 4e-4
+  weight_decay: 1e-4
+  eta_min: 1e-6
+
+model:
+  gcn_hidden: 256
+  transformer_heads: 4
+  pretrained: true
+
+loss:
+  boundary_weight: 5.0
+  aux_loss_weight: 0.4
